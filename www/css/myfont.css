@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "myfont";
+  src: url('../fonts/myfont.eot');
+  src: url('../fonts/myfont.eot?#iefix') format('eot'),
+  url('../fonts/myfont.woff2') format('woff2'),
+  url('../fonts/myfont.woff') format('woff'),
+  url('../fonts/myfont.ttf') format('truetype'),
+  url('../fonts/myfont.svg#myfont') format('svg');
+}
+
+.ys:before {
+  font-family: "myfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.ys-calendar:before {
+  content: "\EA01";
+}
+
+.ys-car:before {
+  content: "\EA02";
+}
+
+.ys-chat-oval:before {
+  content: "\EA03";
+}
+
+.ys-check:before {
+  content: "\EA04";
+}
+
+.ys-close:before {
+  content: "\EA05";
+}
+
+.ys-edit:before {
+  content: "\EA06";
+}
+
+.ys-grave:before {
+  content: "\EA07";
+}
+
+.ys-handicap:before {
+  content: "\EA08";
+}
+
+.ys-medicine:before {
+  content: "\EA09";
+}
+
+.ys-paso-01:before {
+  content: "\EA0A";
+}
+
+.ys-placa:before {
+  content: "\EA0B";
+}
+
+.ys-wallet:before {
+  content: "\EA0C";
+}
+
